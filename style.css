@@ -1,0 +1,50 @@
+body { 
+margin: 0;
+margin-top: 50 px;
+font-family: sans-serif; 
+}
+
+header {
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 50px;
+line-height: 50px;
+background-color: #D3D3D3;
+}
+
+header * {
+display: inline;
+height: 50px;
+}
+
+header ul {
+padding: 0;
+}
+
+header li {
+margin-left: 20 px;
+}
+
+section {
+height: 100vh;
+border: 1px solid black;
+display: grid;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+footer {
+text-align: center;
+padding: 50px;
+}
+
+#hero h1 {
+font-size: 3.5em;
+}
+#hero i {
+font-size: 1.5em;
+}
